@@ -24,5 +24,6 @@ import (
 // LoadBalance
 // Extension - LoadBalance
 type LoadBalance interface {
+	// Select test comment
 	Select([]protocol.Invoker, protocol.Invocation) protocol.Invoker
 }
